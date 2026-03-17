@@ -1,0 +1,89 @@
+div {
+  display: inline-block;
+  background: #1e1e2e;
+  padding: 24px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  min-width: 220px;
+}
+
+h2 {
+  color: #cdd6f4;
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #a6adc8;
+  font-size: 1rem;
+  min-height: 1.4rem;
+  margin: 0 0 4px;
+  word-break: break-all;
+}
+
+h1 {
+  color: #cdd6f4;
+  font-size: 2rem;
+  min-height: 2.4rem;
+  margin: 0 0 16px;
+}
+
+button {
+  width: 48px;
+  height: 48px;
+  margin: 4px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  background: #313244;
+  color: #cdd6f4;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+button:hover {
+  background: #45475a;
+}
+
+button:active {
+  background: #585b70;
+}
+
+/* Operator buttons (+, -, *, /) */
+button:nth-child(4),
+button:nth-child(8),
+button:nth-child(12),
+button:nth-child(16) {
+  background: #89b4fa;
+  color: #1e1e2e;
+  font-weight: bold;
+}
+
+button:nth-child(4):hover,
+button:nth-child(8):hover,
+button:nth-child(12):hover,
+button:nth-child(16):hover {
+  background: #74c7ec;
+}
+
+/* Equals button */
+button[onClick*="calculate"],
+button:nth-child(14) {
+  background: #a6e3a1;
+  color: #1e1e2e;
+  font-weight: bold;
+}
+
+/* Clear button */
+button:nth-child(15) {
+  background: #f38ba8;
+  color: #1e1e2e;
+  font-weight: bold;
+}
+
+button:nth-child(15):hover {
+  background: #eba0ac;
+}
