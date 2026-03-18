@@ -5,6 +5,7 @@ import List from "./Components/List";
 import Counter from "./Components/Counter";
 import Prime from "./Components/Prime";
 import PrimeCheckList from "./Components/PrimeCheckList";
+import ListVal from "./Components/ListVal";
 
 
 
@@ -41,6 +42,10 @@ function App() {
       <PrimeCheckList/>
       </div>
       
+      <div className="card">
+      <ListVal/>
+      </div>
+
     </div>
   );
 }
